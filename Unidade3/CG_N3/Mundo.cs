@@ -151,6 +151,33 @@ namespace gcgcg
                 if(keyboardInput.IsKeyPressed(Keys.B)){
                     objetoSelecionado.shaderObjeto = _shaderAzul;
                 }
+
+                if(keyboardInput.IsKeyPressed(Keys.Up)){
+                    objetoSelecionado.AplicarTranslacao(0,0.5);
+                }
+                if(keyboardInput.IsKeyPressed(Keys.Down)){
+                    objetoSelecionado.AplicarTranslacao(0,-0.5);
+                }
+                if(keyboardInput.IsKeyPressed(Keys.Left)){
+                    objetoSelecionado.AplicarTranslacao(-0.5,0);
+                }
+                if(keyboardInput.IsKeyPressed(Keys.Right)){
+                    objetoSelecionado.AplicarTranslacao(0.5,0);
+                }
+
+                if(keyboardInput.IsKeyPressed(Keys.Home)){
+                    objetoSelecionado.AplicarEscala(0.5,0.5);
+                }
+                if(keyboardInput.IsKeyPressed(Keys.End)){
+                    objetoSelecionado.AplicarEscala(-0.5,-0.5);
+                }
+
+                if(keyboardInput.IsKeyPressed(Keys.D3)){
+                    objetoSelecionado.AplicarRotacaoZ(15.0);
+                }
+                if(keyboardInput.IsKeyPressed(Keys.D4)){
+                    objetoSelecionado.AplicarRotacaoZ(-15.0);
+                }
             }
             #endregion
 

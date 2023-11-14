@@ -228,6 +228,29 @@ namespace gcgcg
       
     }
 
+    public void AplicarTranslacao(double tx, double ty, double tz = 0){
+      matriz.AtribuirTranslacao(tx,ty,tz);
+      AplicarMatriz();
+    }
+
+    public void AplicarEscala(double sx, double sy, double sz = 0){
+      matriz.AtribuirEscala(sx,sy,sz);
+      AplicarMatriz();
+    }
+
+    public void AplicarRotacaoZ(double angulo){
+      matriz.AtribuirRotacaoZ(angulo);
+      AplicarMatriz();
+    }
+
+    private void AplicarMatriz(){
+      foreach (var ponto in pontosLista)
+      {
+        ponto = matriz.MultiplicarPonto(ponto);
+      }
+      ObjetoAtualizar();
+    }
+
     public void OnUnload()
     {
       foreach (var objeto in objetosLista)
