@@ -123,10 +123,14 @@ namespace gcgcg
 
                 if(keyboardInput.IsKeyDown(Keys.V)){
                     objetoSelecionado.MoveClosestPointTo(sruPonto);
+                    objetoSelecionado.ApagarBbox();
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
 
                 if(keyboardInput.IsKeyPressed(Keys.E)){
                     objetoSelecionado.RemoveClosestPointTo(sruPonto);
+                    objetoSelecionado.ApagarBbox();
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
 
                 if(keyboardInput.IsKeyPressed(Keys.P)){
@@ -154,7 +158,8 @@ namespace gcgcg
 
             if(mouseInput.IsButtonPressed(MouseButton.Button2)){
                 if(!ehCriacaoPoligono){
-                    objetoSelecionado.ApagarBbox();
+                    if(objetoSelecionado != null)
+                        objetoSelecionado.ApagarBbox();
                     ehCriacaoPoligono = true;
                     objetoSelecionado = new Poligono(mundo, ref rotuloAtual, new List<Ponto4D>(){sruPonto});
                     objetoSelecionado.PrimitivaTipo = PrimitiveType.LineLoop;
@@ -181,6 +186,7 @@ namespace gcgcg
                 }
             }
         }
+        #endregion
 
         protected override void OnResize(ResizeEventArgs e)
         {
