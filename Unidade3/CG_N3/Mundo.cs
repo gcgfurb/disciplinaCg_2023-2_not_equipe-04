@@ -153,30 +153,39 @@ namespace gcgcg
                 }
 
                 if(keyboardInput.IsKeyPressed(Keys.Up)){
-                    objetoSelecionado.AplicarTranslacao(0,0.5);
+                    objetoSelecionado.AplicarTranslacao(0,0.1);
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
+
                 }
                 if(keyboardInput.IsKeyPressed(Keys.Down)){
-                    objetoSelecionado.AplicarTranslacao(0,-0.5);
+                    objetoSelecionado.AplicarTranslacao(0,-0.1);
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
                 if(keyboardInput.IsKeyPressed(Keys.Left)){
-                    objetoSelecionado.AplicarTranslacao(-0.5,0);
+                    objetoSelecionado.AplicarTranslacao(-0.1,0);
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
                 if(keyboardInput.IsKeyPressed(Keys.Right)){
-                    objetoSelecionado.AplicarTranslacao(0.5,0);
+                    objetoSelecionado.AplicarTranslacao(0.1,0);
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
 
                 if(keyboardInput.IsKeyPressed(Keys.Home)){
-                    objetoSelecionado.AplicarEscala(0.5,0.5);
+                    objetoSelecionado.AplicarEscala(1.5,1.5);
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
                 if(keyboardInput.IsKeyPressed(Keys.End)){
-                    objetoSelecionado.AplicarEscala(-0.5,-0.5);
+                    objetoSelecionado.AplicarEscala(0.5,0.5);
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
 
                 if(keyboardInput.IsKeyPressed(Keys.D3)){
-                    objetoSelecionado.AplicarRotacaoZ(15.0);
+                    objetoSelecionado.AplicarRotacaoZ(9.0);
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
                 if(keyboardInput.IsKeyPressed(Keys.D4)){
-                    objetoSelecionado.AplicarRotacaoZ(-15.0);
+                    objetoSelecionado.AplicarRotacaoZ(-9.0);
+                    objetoSelecionado.DesenharBbox(ref rotuloAtual);
                 }
             }
             #endregion
@@ -202,7 +211,8 @@ namespace gcgcg
             }
 
             if(mouseInput.IsButtonPressed(MouseButton.Button1)){
-                objetoSelecionado.ApagarBbox();
+                if(objetoSelecionado != null)
+                    objetoSelecionado.ApagarBbox();
                 foreach (var objeto in objetosMundo)
                 {
                     if(objeto.Dentro(sruPonto)){

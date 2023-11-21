@@ -239,14 +239,20 @@ namespace gcgcg
     }
 
     public void AplicarRotacaoZ(double angulo){
+      bBox.ProcessarCentro();
+      var centro = new Ponto4D(bBox.obterCentro.X, bBox.obterCentro.Y);
+      AplicarTranslacao(0 - centro.X, 0 - centro.Y, 0 - centro.Z);
       matriz.AtribuirRotacaoZ(angulo);
       AplicarMatriz();
+
+      AplicarTranslacao(centro.X,centro.Y,centro.Z);
     }
 
     private void AplicarMatriz(){
-      foreach (var ponto in pontosLista)
+      ApagarBbox();
+      for (int i = 0; i < pontosLista.Count; i++)
       {
-        ponto = matriz.MultiplicarPonto(ponto);
+        pontosLista[i] = matriz.MultiplicarPonto(pontosLista[i]);
       }
       ObjetoAtualizar();
     }
