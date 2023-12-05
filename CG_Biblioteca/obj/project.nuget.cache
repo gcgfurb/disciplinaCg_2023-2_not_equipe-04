@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "nmLPxvpE4hUtmXN8ieo9dfBJDPVzp23fyL1zKqwrgcFWy5O/JMFKD6TmFTc64Rlvrb/59rIiPCZWHtPD5+3KOg==",
+  "dgSpecHash": "x0vF49Y+AExLoVH/h2VJZZ6IZ+seEodNoeE88e2NXj0A/WejGw3FWQijXSP2o8MWzv9hN8DSSN+VQMbMldCJKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaoh\\OneDrive\\Área de Trabalho\\Cg\\disciplinaCg_2023-2_not_equipe-04\\CG_Biblioteca\\CG_Biblioteca.csproj",
+  "projectFilePath": "c:\\Users\\gilbe\\Desktop\\disciplinaCg_2023-2_not_equipe-04\\CG_Biblioteca\\CG_Biblioteca.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk\\4.8.0\\opentk.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.audio.openal\\4.8.0\\opentk.audio.openal.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.compute\\4.8.0\\opentk.compute.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.core\\4.8.0\\opentk.core.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.graphics\\4.8.0\\opentk.graphics.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.input\\4.8.0\\opentk.input.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.mathematics\\4.8.0\\opentk.mathematics.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.redist.glfw\\3.3.8.38\\opentk.redist.glfw.3.3.8.38.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.windowing.common\\4.8.0\\opentk.windowing.common.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.windowing.desktop\\4.8.0\\opentk.windowing.desktop.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.8.0\\opentk.windowing.graphicslibraryframework.4.8.0.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\stbimagesharp\\2.27.13\\stbimagesharp.2.27.13.nupkg.sha512",
-    "C:\\Users\\joaoh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk\\4.8.0\\opentk.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.audio.openal\\4.8.0\\opentk.audio.openal.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.compute\\4.8.0\\opentk.compute.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.core\\4.8.0\\opentk.core.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.graphics\\4.8.0\\opentk.graphics.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.input\\4.8.0\\opentk.input.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.mathematics\\4.8.0\\opentk.mathematics.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.redist.glfw\\3.3.8.38\\opentk.redist.glfw.3.3.8.38.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.windowing.common\\4.8.0\\opentk.windowing.common.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.windowing.desktop\\4.8.0\\opentk.windowing.desktop.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.8.0\\opentk.windowing.graphicslibraryframework.4.8.0.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\stbimagesharp\\2.27.13\\stbimagesharp.2.27.13.nupkg.sha512",
+    "C:\\Users\\gilbe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

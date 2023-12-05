@@ -437,31 +437,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joaoh\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gilbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaoh\\OneDrive\\Área de Trabalho\\Cg\\disciplinaCg_2023-2_not_equipe-04\\CG_Biblioteca\\CG_Biblioteca.csproj",
+      "projectUniqueName": "c:\\Users\\gilbe\\Desktop\\disciplinaCg_2023-2_not_equipe-04\\CG_Biblioteca\\CG_Biblioteca.csproj",
       "projectName": "CG_Biblioteca",
-      "projectPath": "C:\\Users\\joaoh\\OneDrive\\Área de Trabalho\\Cg\\disciplinaCg_2023-2_not_equipe-04\\CG_Biblioteca\\CG_Biblioteca.csproj",
-      "packagesPath": "C:\\Users\\joaoh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaoh\\OneDrive\\Área de Trabalho\\Cg\\disciplinaCg_2023-2_not_equipe-04\\CG_Biblioteca\\obj\\",
+      "projectPath": "c:\\Users\\gilbe\\Desktop\\disciplinaCg_2023-2_not_equipe-04\\CG_Biblioteca\\CG_Biblioteca.csproj",
+      "packagesPath": "C:\\Users\\gilbe\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\gilbe\\Desktop\\disciplinaCg_2023-2_not_equipe-04\\CG_Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\joaoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gilbe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -505,7 +498,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

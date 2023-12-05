@@ -22,3 +22,15 @@ C:\Users\joaoh\OneDrive\Área de Trabalho\Cg\disciplinaCg_2023-2_not_equipe-04\C
 C:\Users\joaoh\OneDrive\Área de Trabalho\Cg\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\refint\CG_Biblioteca.dll
 C:\Users\joaoh\OneDrive\Área de Trabalho\Cg\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\CG_Biblioteca.pdb
 C:\Users\joaoh\OneDrive\Área de Trabalho\Cg\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\ref\CG_Biblioteca.dll
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\bin\Debug\net7.0\CG_Biblioteca.deps.json
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\bin\Debug\net7.0\CG_Biblioteca.dll
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\bin\Debug\net7.0\CG_Biblioteca.pdb
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\CG_Biblioteca.csproj.AssemblyReference.cache
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\CG_Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\CG_Biblioteca.AssemblyInfoInputs.cache
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\CG_Biblioteca.AssemblyInfo.cs
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\CG_Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\CG_Biblioteca.dll
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\refint\CG_Biblioteca.dll
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\CG_Biblioteca.pdb
+C:\Users\gilbe\Desktop\disciplinaCg_2023-2_not_equipe-04\CG_Biblioteca\obj\Debug\net7.0\ref\CG_Biblioteca.dll
